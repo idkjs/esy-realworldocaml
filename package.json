@@ -1,7 +1,7 @@
 {
-  "name": "esy-ocaml-project",
+  "name": "esy-realworldocaml",
   "version": "0.1.0",
-  "description": "OCaml workflow with Esy",
+  "description": "realworldOCaml workflow with Esy",
   "license": "MIT",
   "esy": {
     "build": [
