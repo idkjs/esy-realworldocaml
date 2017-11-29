@@ -1,0 +1,42 @@
+{
+  "name": "esy-ocaml-project",
+  "version": "0.1.0",
+  "description": "OCaml workflow with Esy",
+  "license": "MIT",
+  "esy": {
+    "build": [
+      "jbuilder build"
+    ],
+    "install": [
+      "esy-installer"
+    ],
+    "buildsInSource": "_build"
+  },
+  "dependencies": {
+    "@esy-ocaml/esy-installer": "^0.0.0",
+    "@opam/async_extra": "^113.24.0",
+    "@opam/core": "^113.24.2",
+    "@opam/core_bench": "^113.24.0",
+    "@opam/core_extended": "^113.24.0",
+    "@opam/core_kernel": "^113.24.0",
+    "@opam/jbuilder": "^1.0.0-beta14",
+    "@opam/lambda-term": "^1.11.0",
+    "@opam/lwt": "^3.1.0",
+    "@opam/ppx_bench": "^113.24.0",
+    "@opam/ppx_driver": "^113.24.0",
+    "@opam/ppx_expect": "^113.24.0",
+    "@opam/ppx_sexp_conv": "^113.24.0",
+    "@opam/ppx_sexp_message": "^113.24.0",
+    "@opam/ppx_typerep_conv": "^113.24.0",
+    "@opam/ppx_variants_conv": "^113.24.0",
+    "@opam/utop": "^2.0.2",
+    "@opam/yojson": "^1.4.0"
+  },
+  "peerDependencies": {
+    "ocaml": "~4.2.3000"
+  },
+  "devDependencies": {
+    "@opam/merlin": "^3.0.3",
+    "ocaml": "~4.2.3000"
+  }
+}
