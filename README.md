@@ -1,6 +1,8 @@
 # esy-realworldocaml
 
-## Deps
+* install docs:
+  https://github.com/realworldocaml/book/wiki/Installation-Instructions
+  ## Deps
 
 `esy add @opam/core @opam/utop`
 
