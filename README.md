@@ -7,7 +7,7 @@
 `esy add @opam/core @opam/utop`
 
 ```sh
-$ `esy add @opam/async @opam/yojson @opam/core_extended @opam/core_bench @opam/cohttp @opam/async_graphics @opam/cryptokit @opam/menhir`
+$ `esy add @opam/async @opam/yojson @opam/core_extended @opam/core_bench @opam/cohttp @opam/cryptokit @opam/menhir @opam/async_graphics`
 ```
 
 [![Build Status](https://travis-ci.org/esy-ocaml/esy-ocaml-project.svg?branch=master)](https://travis-ci.org/esy-ocaml/esy-ocaml-project)
